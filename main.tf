@@ -13,7 +13,7 @@ resource "aws_instance" "test" {
   ami           = "ami-022661f8a4a1b91cf"
   instance_type = "t2.micro"
   tags = {
-      Name = "Webhook-Instance"
+      Name = "Webhook2-Instance"
   }
 }
 
